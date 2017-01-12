@@ -1,0 +1,275 @@
+/** {
+  border: 1px solid blue;
+  margin-left: 6px;
+}
+*/
+
+* {
+  margin:0;
+}
+.nav {
+  background-color: #262626;
+  height: 80px;
+}
+
+.pico {
+  font-size: 24px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 20px;
+  color: white;
+  margin-top: 15px;
+  padding: 15px 15px 15px 35px;
+}
+
+.nav ul {
+ list-style-type: none;
+ float: right;
+ font-family: arial;
+ font-size: 14px;
+ font-weight: bold;
+ padding: 15px 35px 15px 15px;
+ margin-top: 20px;
+}
+
+.nav li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #D8D8D8; 
+}
+
+.home a {
+  color: #FF6760;
+}
+
+.header {
+  text-align: center;
+  color: #D8D8D8;
+  background-color: rgb(42,42,42);
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  padding-top: 65px;
+  font-weight: 300;
+  padding-bottom: 80px;
+}
+
+.header h1 {
+  font-size: 44px;
+  font-weight: 400;
+  font-weight: lighter;
+}
+
+.header h1 > span {
+  font-weight: bold;
+}
+
+.header h2 {
+  font-size: 36px;
+  font-weight:100;
+  margin: 25px 0;
+}
+
+.header h2 > span {
+  color: #FF6760;
+}
+
+.button {
+  display: inline-block;
+  background-color: #FF6760;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 18px;
+}
+
+.button:hover {
+  background-color: teal;
+}
+
+.button a {
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+.content {
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+.content table {
+  text-align: center;
+  margin: auto auto;
+}
+
+.content td {
+  padding-left: 70px;
+  padding-right: 70px;
+  white-space: nowrap;
+  
+}
+
+.blank td {
+  padding-bottom: 80px;
+
+}
+
+.blank2 td {
+  padding-bottom: 60px;
+}
+
+.footer {
+  background-color: rgb(42,42,42);
+  text-align: center;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+.footer p {
+  color: grey;
+}
+
+.footer img {
+  padding-bottom: 80px;
+}
+
+
+/*html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 6px dotted crimson;
+}
+
+.jumbotron {
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
+  background-size: cover;
+
+  height: 500px;
+  border: 2px solid blue;
+}
+
+.header {
+  background-color: blue;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px 0;
+  border: 2px solid pink;
+}
+
+.nav li {
+  color: red;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1600;
+  font-size: 12px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  border: 1px solid green;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+  border: 1px solid maroon;
+}
+
+.main h1 {
+  color: darkgrey;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  border: 1px solid #333;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px;      
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/*Why does text align center go in .main class and not in .main h1?*/
